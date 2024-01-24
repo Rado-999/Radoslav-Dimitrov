@@ -1,11 +1,11 @@
 {% extends 'navigation.html' %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Radoslav Dimitrov</title>
-</head>
-<body>
-    
-</body>
-</html>
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/welcome_page.css' %}">
+{% block homepage %}
+    <div class="container">
+        <p class="welcome">WELCOME!</p>
+        <h1 class="header">I Am Web Developer</h1>
+        <h2 class="introduce">Hello, I am software engineering student at Software University(SoftUni)
+            learning Backend Development with Python</h2>
+    </div>
+{% endblock %}

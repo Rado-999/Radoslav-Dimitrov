@@ -43,3 +43,15 @@ img{
     list-style-type: none;
     padding: 0px;
 }
+
+.linkedin-icon{
+    color: rgb(10, 102, 194);
+}
+
+.git-icon{
+    color: rgb(36, 41, 46);
+}
+
+.insta-icon{
+    color: #e1306c;
+}
